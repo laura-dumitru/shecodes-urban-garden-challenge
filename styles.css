@@ -21,6 +21,21 @@ hr {
   width: 10%;
   margin: 0 auto;
 }
+footer svg {
+  transition: color 0.5s ease-in-out;
+}
+footer svg.lucide {
+  color: #69b578;
+  width: 40px;
+  height: 40px;
+  stroke-width: 1.5px;
+}
+footer svg.lucide:hover {
+  color: blue;
+}
+footer a {
+  text-decoration: none;
+}
 .navbar {
   background-color: #69b578;
 }
