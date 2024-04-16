@@ -1,17 +1,30 @@
-body {
-  background-color: #fbf7e4;
-}
 main {
   display: block;
   margin: 0 auto;
   max-width: 800px;
   margin-top: 4em;
 }
-h1 {
+h1,
+h4 {
+  text-align: center;
+  margin: 1.25em 1.25em;
 }
-
 p {
   max-width: 800px;
   display: block;
   margin: 0 auto;
+  margin-top: 2em;
+}
+hr {
+  outline: none;
+  background-color: #69b578;
+  width: 10%;
+  margin: 0 auto;
+}
+.navbar {
+  background-color: #69b578;
+}
+.btn.btn-primary {
+  background-color: #69b578;
+  border: none;
 }
