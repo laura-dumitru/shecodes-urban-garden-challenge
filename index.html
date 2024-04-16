@@ -15,7 +15,39 @@
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Urban Garden</a>
+        <a class="navbar-brand" href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="#000"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-icon"
+          >
+            <style>
+              @media screen and (prefers-color-scheme: light) {
+                svg {
+                  fill: transparent !important;
+                }
+              }
+              @media screen and (prefers-color-scheme: dark) {
+                svg {
+                  stroke: #fff;
+                  fill: transparent !important;
+                }
+              }
+            </style>
+            <path d="M18 9.52a4.04 4.04 0 1 1 2-3.47" />
+            <circle cx="17" cy="7.8" r="2" />
+            <path d="m14 2.5-2 1.3a6 6 0 1 0 6 10.4l2-1.2a4 4 0 0 0-4-6.95" />
+            <path d="M9.77 12C4 15 2 22 2 22" />
+            <path d="M13 20s-5 3-9.2-2c0 0 5.2-3 9.2 2" />
+          </svg>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,19 +62,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Where to go</a>
+              <a class="nav-link active" aria-current="page" href="#">Urban Garden benefits</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Plan your trip</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link active" href="#">Get involved</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h1>Urban Gardens in Spain</h1>
+    <h1>Urban Gardens</h1>
     <hr />
     <p>
       What makes these green spaces so vital in urban areas? Share your favorite aspects of them,
@@ -57,7 +86,7 @@
       more aesthetically pleasing and resilient. Overall, urban gardens are vital for creating
       healthier, more sustainable, and vibrant urban environments.
     </p>
-    <h4>Check out my favourite parks in Spain</h4>
+    <h4>Check out my favourite urban gardens in Spain</h4>
     <hr />
 
     <main>
@@ -136,12 +165,43 @@
           </div>
         </div>
       </div>
+      <h4>Urban Garden benefits</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores assumenda sint laborum
+        dolorum, fugit suscipit consectetur quae saepe doloremque quisquam exercitationem, odio
+        minima beatae iusto temporibus laudantium. Perferendis, voluptatum non!
+      </p>
+      <h4>How can you get involved?</h4>
+      <p>
+        Plant a tree bla bla bla Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+        assumenda sint laborum dolorum, fugit suscipit consectetur quae saepe doloremque quisquam
+        exercitationem, odio minima beatae iusto temporibus laudantium. Perferendis, voluptatum non!
+      </p>
     </main>
+    <footer class="footer">
+      <div class="social-links">
+        <a href="https://www.instagram.com/lauramona_d/" target="_blank" title="Link to Instagram">
+          <i data-lucide="instagram"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/laura-d-923248137/"
+          target="_blank"
+          title="Link to LinkedIn"
+        >
+          <i data-lucide="linkedin"></i>
+        </a>
+        <a href="https://github.com/laura-dumitru" target="_blank" title="Link to GitHub">
+          <i data-lucide="github"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/lucide@latest"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
