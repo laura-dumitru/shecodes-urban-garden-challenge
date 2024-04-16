@@ -1,0 +1,17 @@
+body {
+  background-color: #fbf7e4;
+}
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 4em;
+}
+h1 {
+}
+
+p {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
