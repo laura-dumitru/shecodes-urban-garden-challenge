@@ -5,7 +5,7 @@ body {
 main {
   display: block;
   margin: 0 auto;
-  max-width: 860px;
+  max-width: 800px;
   margin-top: 4em;
 }
 h1,
@@ -25,9 +25,13 @@ hr {
   width: 10%;
   margin: 0 auto;
 }
+.city {
+  text-align: center;
+  font-size: 1.5em;
+}
 
 .navbar {
-  background-color: #38a3a5;
+  background-color: #0ead69;
 }
 .navbar a {
   font-size: 0.9em;
@@ -38,8 +42,8 @@ hr {
 
 .myButton {
   border: none;
-  background-color: #ffc9b9;
-  padding: 0.9em 0.9em;
+  background-color: #3bceac;
+  padding: 0.5em 1.4em;
   border-radius: 0.25em;
   margin-top: 1em;
 }
@@ -57,7 +61,7 @@ footer svg.lucide:hover {
   stroke: #fefee3;
 }
 footer svg.lucide {
-  stroke: #2c6e49;
+  stroke: #0ead69;
   margin-top: 4em;
   margin-left: 0.7em;
   margin-bottom: 1em;
