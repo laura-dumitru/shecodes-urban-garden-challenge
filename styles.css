@@ -15,6 +15,7 @@ main {
   max-width: 80%;
   display: block;
   margin: 0 auto;
+  margin-top: 2em;
   padding: 3em;
   border-radius: 1em;
 }
@@ -23,14 +24,15 @@ section {
   display: block;
   margin: 0 auto;
   max-width: 60%;
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 h1,
 h4 {
   text-align: center;
-  margin: 1em 1em;
+  margin: 1.5em;
 }
+
 p {
   max-width: 800px;
   display: block;
@@ -39,15 +41,24 @@ p {
 }
 hr {
   outline: none;
-  background-color: var(--green);
-  width: 10%;
+  border-top: 1.5px solid var(--green);
+  width: 15%;
+  opacity: 0.5;
   margin: 0 auto;
+  margin-bottom: 2em;
 }
 .navbar a {
   font-size: 0.9em;
 }
+.navbar-nav .nav-link.active {
+  color: var(--cream);
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+
 .navbar-nav .nav-link:hover {
-  color: var(--hover);
+  color: var(--red);
+  transition: color 0.7s ease-in-out;
 }
 .city {
   text-align: center;
@@ -77,6 +88,11 @@ p.card-text {
 ol {
   list-style: none;
 }
+ol svg.lucide,
+.getInvolved svg.lucide {
+  width: 1.5em;
+  height: 1.5em;
+}
 ol svg.lucide {
   stroke: var(--green);
 }
@@ -94,14 +110,24 @@ footer a {
   text-decoration: none;
 }
 footer svg.lucide:hover {
-  stroke: var(--lightgreen);
+  stroke: var(--red);
 }
 footer svg.lucide {
   stroke: var(--cream);
   margin-top: 4em;
-  margin-left: 0.7em;
+  margin-left: 0.5em;
   margin-bottom: 1em;
   width: 2.5em;
   height: 2.5em;
   stroke-width: 1.5px;
+  transition: stroke 0.7s ease-in-out;
+}
+.library {
+  color: black;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.library a {
+  color: black;
 }
