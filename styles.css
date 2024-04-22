@@ -7,12 +7,13 @@
 }
 
 body {
-  font-family: "Merriweather", serif;
   background-color: var(--green);
+  font-family: "Crimson Text", serif;
 }
 nav {
   position: absolute;
   left: 20%;
+  margin-top: 1em;
 }
 
 .navbar a {
@@ -20,7 +21,7 @@ nav {
 }
 .navbar-nav .nav-link.active {
   color: var(--cream);
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .navbar-nav .nav-link:hover {
@@ -28,11 +29,10 @@ nav {
   transition: color 0.5s ease-in-out;
 }
 main {
-  background-color: var(--cream);
+  background-color: #f6ead5;
   max-width: 60%;
   display: block;
   margin: 0 auto;
-  margin-top: 2em;
   padding: 3em;
   border-radius: 0.5em;
 }
@@ -45,7 +45,15 @@ section {
 }
 
 h1,
+h4,
+.city {
+  color: #283521;
+  font-weight: 600;
+}
+
+h1,
 h4 {
+  font-family: "Lato", sans-serif;
   text-align: center;
   margin: 1.2em;
 }
@@ -56,7 +64,7 @@ p {
   margin-top: 1em;
 }
 .introduction {
-  margin: 0 2em;
+  margin: 0 6em;
 }
 hr {
   outline: none;
@@ -69,7 +77,7 @@ hr {
 
 .city {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin-top: 1em;
 }
 .carousel-inner,
@@ -79,6 +87,9 @@ hr {
 
 p.card-text {
   margin-top: 0;
+}
+.card {
+  background-color: #f6e7cb;
 }
 
 .card img {
