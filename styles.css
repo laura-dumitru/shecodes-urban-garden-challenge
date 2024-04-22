@@ -10,70 +10,82 @@ body {
   font-family: "Merriweather", serif;
   background-color: var(--green);
 }
-main {
-  background-color: var(--cream);
-  max-width: 80%;
-  display: block;
-  margin: 0 auto;
-  margin-top: 2em;
-  padding: 3em;
-  border-radius: 1em;
+nav {
+  position: absolute;
+  left: 20%;
 }
 
-section {
-  display: block;
-  margin: 0 auto;
-  max-width: 60%;
-  margin-top: 1.5em;
-}
-
-h1,
-h4 {
-  text-align: center;
-  margin: 1.5em;
-}
-
-p {
-  max-width: 800px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 1em;
-}
-hr {
-  outline: none;
-  border-top: 1.5px solid var(--green);
-  width: 15%;
-  opacity: 0.5;
-  margin: 0 auto;
-  margin-bottom: 2em;
-}
 .navbar a {
   font-size: 0.9em;
 }
 .navbar-nav .nav-link.active {
   color: var(--cream);
   font-size: 1em;
-  letter-spacing: 0.1em;
 }
 
 .navbar-nav .nav-link:hover {
   color: var(--red);
-  transition: color 0.7s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
+main {
+  background-color: var(--cream);
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 3em;
+  border-radius: 0.5em;
+}
+
+section {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  margin-top: 1.5em;
+}
+
+h1,
+h4 {
+  text-align: center;
+  margin: 1.2em;
+}
+
+p {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+.introduction {
+  margin: 0 2em;
+}
+hr {
+  outline: none;
+  border-top: 1.5px solid var(--green);
+  width: 15%;
+  opacity: 0.8;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
 .city {
   text-align: center;
   font-size: 1.5em;
   margin-top: 1em;
 }
+.carousel-inner,
+.card {
+  border-radius: 0.5em;
+}
 
 p.card-text {
   margin-top: 0;
 }
+
+.card img {
+  max-height: 50%;
+}
 .description {
   font-size: 0.8em;
-}
-.carousel-inner {
-  border-radius: 0.4em;
 }
 
 .myButton {
