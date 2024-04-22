@@ -87,6 +87,7 @@ hr {
 
 p.card-text {
   margin-top: 0;
+  font-size: 1.3em;
 }
 .card {
   background-color: #f6e7cb;
@@ -102,9 +103,8 @@ p.card-text {
 .myButton {
   border: none;
   background-color: var(--lightgreen);
-  font-size: 0.8em;
-  font-weight: 400;
-  padding: 0.8em 1.8em;
+  font-weight: 500;
+  padding: 0.5em 2em;
   border-radius: 0.25em;
   margin-top: 1em;
 }
