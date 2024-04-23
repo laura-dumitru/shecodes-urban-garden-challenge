@@ -21,7 +21,7 @@ nav {
 }
 .navbar-nav .nav-link.active {
   color: var(--cream);
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .navbar-nav .nav-link:hover {
@@ -133,23 +133,24 @@ footer a {
   text-decoration: none;
 }
 footer svg.lucide:hover {
-  stroke: var(--red);
+  stroke-width: var(--red);
 }
 footer svg.lucide {
-  stroke: var(--cream);
+  stroke-width: var(--cream);
   margin-top: 4em;
   margin-left: 0.5em;
-  margin-bottom: 1em;
   width: 2.5em;
   height: 2.5em;
   stroke-width: 1.5px;
-  transition: stroke 0.7s ease-in-out;
+}
+footer svg.lucide {
+  transition: stroke-width 0.5s ease-in-out;
 }
 .library {
+  font-size: 1.2em;
   color: black;
   text-align: center;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 .library a {
   color: black;
