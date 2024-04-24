@@ -3,9 +3,9 @@ lucide.createIcons();
 const readMore = Array.from(document.querySelectorAll(".myButton"));
 const descriptions = Array.from(document.querySelectorAll(".description"));
 const descriptionsArray = [
-  "Overlooking southwest Barcelona, Montjuic Park is the city’s green hilltop getaway, packed with history and attractions. Montjuïc is not only a park, it’s also a very prominent hill located right next to the Mediterranean. Archaeologists and historians believe it to be the birthplace of Barcelona. The park provides various cultural landmarks, such as The National Palace, The Magic Fountain..",
+  "Overlooking southwest Barcelona and believed to be the city's birthplace, Montjuic Park is a green hilltop getaway, packed with history and attractions. Montjuïc is not only an urban park, it’s also a hill with incredible views and various cultural landmarks.",
   "Park Güell, Barcelona's iconic landmark, captivates visitors with its mesmerizing architecture crafted by the visionary artist Antoni Gaudí. Offering breathtaking panoramas of the cityscape, the park mesmerizes with vibrant mosaic artworks that adorn its pathways, drawing your gaze in every direction.",
-  "Located near the city center, this expansive park boasts lush greenery, serene ponds, and impressive sculptures. It's a favorite spot for picnics, leisurely walks, and outdoor activities.",
+  "Located near the city center, Parc de la Ciutadella boasts lush greenery, serene ponds, and impressive sculptures. It's a favorite spot for picnics, leisurely walks, and outdoor activities, like boat rowing. It is believed to be a green oasis inside the city of Barcelona and is very popular amongst families.",
 ];
 const parkArray = ["Montjuic Park", "Güell Park", "Parc de la Ciutadella"];
 
@@ -22,12 +22,24 @@ readMore.forEach((button, index) => {
 
 const carousel = document.querySelectorAll('[data-bs-target="#carouselExampleFade"]');
 const cardImages = document.querySelectorAll(".card-img-top");
+const parkNames = document.querySelectorAll(".card-text");
+
+let currentCity = "Valencia";
 
 carousel.forEach((carousel) => {
   carousel.addEventListener("click", function () {
-    console.log("click");
+    const city = document.querySelector(".city");
+    if (currentCity === "Valencia") {
+      currentCity = "Barcelona";
+    } else {
+      currentCity = "Valencia";
+    }
+    city.innerHTML = currentCity;
+
     cardImages.forEach((img, i) => {
-      img.src = `images/Barcelona/image${i + 1}.jpg`; // Adjust index to match image numbering
+      img.src = `images/${currentCity}/image${i + 1}.jpg`;
+      parkNames[i].innerHTML = parkArray[i];
+      descriptions[i].innerHTML = descriptionsArray[i];
     });
   });
 });
