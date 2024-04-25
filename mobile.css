@@ -1,0 +1,19 @@
+@media (max-width: 900px) {
+  a.nav-link.active {
+    padding: 0;
+    font-size: 1em;
+  }
+  .navbar-toggler {
+    border: none;
+    color: red;
+  }
+}
+.navbar-nav .nav-link.active {
+  font-size: 1.2em;
+}
+.introduction {
+  margin: 0 1em;
+}
+.city {
+  font-size: 1.5em;
+}
