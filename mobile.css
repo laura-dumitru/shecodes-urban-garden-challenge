@@ -2,6 +2,9 @@
   body {
     background-color: var(--cream-dark);
   }
+  h1 {
+    color: red;
+  }
   main {
     max-width: 90%;
     padding: 0;
@@ -18,7 +21,7 @@
     font-size: 1.2em;
   }
   .introduction {
-    margin: 0 2em;
+    margin: 0 1em;
   }
   h4 {
     margin: 1.5em 2em;
@@ -30,6 +33,22 @@
     max-width: 100%;
   }
   .myButton {
-    padding: 0.5em 4em;
+    padding: 0.5em 2.5em;
+    font-weight: bold;
+  }
+  ol {
+    padding-left: 0rem;
+    margin: 0 1em;
+  }
+  footer {
+    margin-bottom: 0.5em;
+  }
+  footer svg {
+    margin-top: 2em;
+    stroke: var(--green);
+  }
+  .library,
+  .library a {
+    color: var(--green);
   }
 }
