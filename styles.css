@@ -55,7 +55,9 @@ h1,
 h4 {
   font-family: "Lato", sans-serif;
   text-align: center;
-  margin: 1em 0;
+}
+h4 {
+  margin-top: 1.5em;
 }
 
 p {
@@ -70,8 +72,7 @@ hr {
   border-top: 1.5px solid var(--green);
   width: 15%;
   opacity: 0.8;
-  margin: 0 auto;
-  margin-bottom: 1.5em;
+  margin: 1.5em auto;
 }
 
 .city {
@@ -147,6 +148,7 @@ footer svg {
   height: 2.5em;
   stroke-width: 1.5px;
   stroke: var(--cream);
+  transition: stroke 0.5s ease-in-out; /* Added transition property */
 }
 
 footer a:hover svg {
