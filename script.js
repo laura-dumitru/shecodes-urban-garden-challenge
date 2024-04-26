@@ -29,9 +29,17 @@ descriptions.forEach((description) => {
 });
 
 readMore.forEach((button, index) => {
+  let isOpen = false;
   button.addEventListener("click", function () {
-    console.log("click");
-    descriptions[index].style.display = "block";
+    if (!isOpen) {
+      console.log("not open");
+      descriptions[index].style.display = "block";
+      isOpen = true;
+    } else {
+      console.log("RUN");
+      descriptions[index].style.display = "none";
+      isOpen = false;
+    }
   });
 });
 
