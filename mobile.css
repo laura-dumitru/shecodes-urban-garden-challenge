@@ -13,7 +13,6 @@
   }
   .navbar-toggler {
     border: none;
-    color: var(--green);
   }
   .navbar-nav .nav-link.active {
     font-size: 1.2em;
