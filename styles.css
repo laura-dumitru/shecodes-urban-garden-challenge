@@ -123,6 +123,7 @@ p.card-text {
 
 .myButton {
   border: none;
+  color: black;
   background-color: var(--red);
   font-weight: 500;
   padding: 0.5em 2em;
