@@ -43,7 +43,6 @@
   .myButton {
     color: black;
     padding: 0.5em 2.5em;
-    font-weight: 600;
   }
 
   ol {
@@ -54,7 +53,7 @@
     margin-bottom: 0.5em;
   }
   footer svg {
-    margin-top: 2em;
+    margin-top: 3em;
     stroke: var(--green);
   }
   .library,
