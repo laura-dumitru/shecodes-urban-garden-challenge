@@ -29,17 +29,10 @@ descriptions.forEach((description) => {
 });
 
 readMore.forEach((button, index) => {
-  let isOpen = false;
+  let toggle = false;
   button.addEventListener("click", function () {
-    if (!isOpen) {
-      console.log("not open");
-      descriptions[index].style.display = "block";
-      isOpen = true;
-    } else {
-      console.log("RUN");
-      descriptions[index].style.display = "none";
-      isOpen = false;
-    }
+    toggle = !toggle;
+    descriptions[index].style.display = toggle ? "inherit" : "none";
   });
 });
 
@@ -58,10 +51,6 @@ carousel.forEach((carousel) => {
       currentCity = "Valencia";
     }
     city.innerHTML = currentCity;
-
-    descriptions.forEach((description) => {
-      description.style.display = "none";
-    });
 
     cardImages.forEach((img, i) => {
       img.src = `images/${currentCity}/image${i + 1}.jpg`;
