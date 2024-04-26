@@ -41,6 +41,7 @@
     max-width: 100%;
   }
   .myButton {
+    color: black;
     padding: 0.5em 2.5em;
     font-weight: 600;
   }
