@@ -2,9 +2,7 @@
   body {
     background-color: var(--cream-dark);
   }
-  h1 {
-    color: red;
-  }
+
   main {
     max-width: 90%;
     padding: 0;
@@ -27,15 +25,27 @@
   h4 {
     margin: 1.5em 2em;
   }
+  hr {
+    width: 25%;
+  }
   .city {
     font-size: 1.5em;
   }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 2em;
+    height: 2em;
+  }
+
   section {
     max-width: 100%;
   }
   .myButton {
     padding: 0.5em 2.5em;
-    font-weight: bold;
+    font-weight: 600;
+  }
+  .myButton a {
+    color: black;
   }
   ol {
     padding-left: 0rem;
