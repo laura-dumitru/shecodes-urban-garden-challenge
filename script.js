@@ -2,6 +2,8 @@ lucide.createIcons();
 
 const readMore = Array.from(document.querySelectorAll(".myButton"));
 const descriptions = Array.from(document.querySelectorAll(".description"));
+const menu = document.querySelector(".navbar-toggler");
+const menuIcon = document.querySelector(".navbar-toggler-icon");
 
 const locations = {
   Valencia: {
@@ -59,3 +61,20 @@ carousel.forEach((carousel) => {
     });
   });
 });
+
+let toggle = false;
+menu.addEventListener("click", function () {
+  toggle = !toggle;
+  if (toggle) menuIcon.classList.add("new-background");
+  else menuIcon.classList.remove("new-background");
+});
+
+/*
+readMore.forEach((button, index) => {
+  let toggle = false;
+  button.addEventListener("click", function () {
+    toggle = !toggle;
+    descriptions[index].style.display = toggle ? "inherit" : "none";
+  });
+});
+*/
