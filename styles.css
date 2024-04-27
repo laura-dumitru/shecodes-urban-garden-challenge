@@ -150,13 +150,25 @@ ol {
 }
 ol svg.lucide,
 .getInvolved svg.lucide {
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.8em;
+  height: 1.8em;
+  margin-right: 0.25em;
+  cursor: pointer;
 }
 ol svg.lucide {
+  transition: stroke 0.5s ease-in-out;
+  stroke: var(--red);
+}
+ol svg.lucide:hover {
   stroke: var(--green);
 }
+
 .getInvolved svg.lucide {
+  transition: stroke 0.5s ease-in-out;
+  stroke: var(--green);
+}
+
+.getInvolved svg.lucide:hover {
   stroke: var(--red);
 }
 
