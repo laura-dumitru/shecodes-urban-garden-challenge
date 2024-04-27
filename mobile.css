@@ -48,6 +48,12 @@
     padding-left: 0rem;
     margin: 0 1em;
   }
+  ol svg.lucide,
+  .getInvolved svg.lucide {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0;
+  }
   footer {
     margin-bottom: 0.5em;
   }
