@@ -69,12 +69,12 @@ menu.addEventListener("click", function () {
   else menuIcon.classList.remove("new-background");
 });
 
-/*
-readMore.forEach((button, index) => {
-  let toggle = false;
-  button.addEventListener("click", function () {
-    toggle = !toggle;
-    descriptions[index].style.display = toggle ? "inherit" : "none";
-  });
+document.addEventListener("DOMContentLoaded", function () {
+  const rose = document.querySelector(".rose");
+
+  // Set initial width and height after a brief delay
+  setTimeout(function () {
+    rose.style.width = "40px"; // Set initial width
+    rose.style.height = "40px"; // Set initial height
+  }, 100); // 100 milliseconds delay
 });
-*/
