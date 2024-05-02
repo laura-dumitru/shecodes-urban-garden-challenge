@@ -20,7 +20,7 @@ const locations = {
     parks: ["Montjuic Park", "Güell Park", "Parc de la Ciutadella"],
     more: [
       "Overlooking the southwest of Barcelona and believed to be the city's birthplace, Montjuic Park is a green hilltop getaway, packed with history, attractions and activites for all. Montjuïc is not only an urban park, it’s also a hill with incredible views and various cultural landmarks.",
-      "Park Güell, Barcelona's iconic landmark, captivates visitors with its architecture crafted by the artist Antoni Gaudí. The park offers breathtaking panoramas of the cityscape, the park mesmerizes with vibrant mosaic artworks that adorn its pathways, drawing your gaze in every direction.",
+      "Güell Park, Barcelona's iconic landmark, captivates visitors with its architecture crafted by the artist Antoni Gaudí. The park offers breathtaking panoramas of the cityscape, the park mesmerizes with vibrant mosaic artworks that adorn its pathways, drawing your gaze in every direction.",
       "Located near the city center, Parc de la Ciutadella boasts lush greenery, serene ponds, and impressive sculptures. It's a favorite spot for picnics, leisurely walks, and outdoor activities, like boat rowing. It is believed to be a green oasis inside the city of Barcelona and is very popular amongst families.",
     ],
   },
